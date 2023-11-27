@@ -1,6 +1,7 @@
 import React from 'react'
 import {FaGithub, FaLinkedin, FaInstagram, FaYoutube} from 'react-icons/fa'
 import { FaHashnode } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 function Footer() {
@@ -16,10 +17,11 @@ function Footer() {
             <div className='pl-8'>
                 <h6 className="font-bold uppercase py-2 ">Links</h6>
                 <ol>
-                    <li className="py-1">Home</li>
-                    <li className="py-1">About Us</li>
-                    <li className="py-1">Services</li>
-                    <li className="py-1">Work Models</li>
+                    <Link to="/"><li className="py-1">Home</li></Link>
+                    <Link to="/about"><li className="py-1">About</li></Link>
+                    <Link to="/services"><li className="py-1">Services</li></Link>
+                    <Link to="/workmodel"><li className="py-1">Work Model</li></Link>
+                    <Link to="/contact"><li className="py-1">Contact Us</li></Link>
                 </ol>
             </div>
 
