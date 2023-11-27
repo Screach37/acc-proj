@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {menu, logo, close} from '../assets'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
   const[toggle, setToggle] = useState(false)
   const handleToggle = () => setToggle(!toggle)
@@ -15,11 +16,11 @@ const Navbar = () => {
             {/* 2st item of the container - Menu */}
             <div className="flex items-center">
                 <ul className="hidden sm:flex">
-                    <li className="p-4">Home</li>
-                    <li className="p-4">About</li>
-                    <li className="p-4">Services</li>
-                    <li className="p-4">Work Model</li>
-                    <li className="p-4">Contact Us</li>
+                    <Link to="/"><li className="p-4">Home</li></Link>
+                    <Link to="/about"><li className="p-4">About</li></Link>
+                    <Link to="/services"><li className="p-4">Services</li></Link>
+                    <Link to="/workmodel"><li className="p-4">Work Model</li></Link>
+                    <Link to="/contact"><li className="p-4">Contact Us</li></Link>
                 </ul>
             </div>
 
