@@ -2,7 +2,7 @@
   "name": "accproj",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://screach37.github.io/acc-proj",
+  "homepage": "https://screach37.github.io/acc-proj/",
   "type": "module",
   "scripts": {
     "predegploy": "npm run build",
