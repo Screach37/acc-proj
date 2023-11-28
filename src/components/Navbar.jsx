@@ -10,7 +10,7 @@ const Navbar = () => {
             
             {/* 1st item of the container - Logo */}
             <div className="flex items-center">
-                <img src={logo} alt="logo" className="sm:ml-10 md:ml-3 opacity-[100%] w-full h-[100px]" />
+                <img src="https://gobranddirect.com/cdn/shop/products/Asset2_grande.jpg?v=1619802039" alt="logo" className="sm:ml-10 md:ml-3 opacity-[100%] w-full h-[100px]" />
             </div>
 
             {/* 2st item of the container - Menu */}
