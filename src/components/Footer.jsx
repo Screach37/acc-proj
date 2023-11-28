@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='w-full bg-[#02044A] text-gray-300 py-8 px-2'>
+    <div className='w-full bg-indigo-600 text-gray-300 py-8 px-2'>
         {/* 1st row of footer */}
-        <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 border-gray-600 py-8">
+        <div className="max-w-[1240px] mx-auto grid grid-cols-2 md:grid-cols-4 border-b-2 border-indigo-300 py-8">
             <div className='col-span-2 p-2'>
                 <h6 className="font-bold uppercase py-2">About Us</h6>
                     <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam, qui iusto iure quae sunt debitis eius at vitae quidem ipsam laudantium alias ex eaque similique commodi aperiam adipisci atque.</h3>
@@ -37,13 +37,13 @@ function Footer() {
         </div>
 
         {/* 2nd Row of Footer */}
-        <div className="flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-gray-500 items-center" >
+        <div className="flex flex-col max-w-[1240px] px-2 py-4 m-auto justify-between sm:flex-row text-center text-white items-center" >
             <p>2023 A/C Team, All Rights Reserved</p>
             <div className="flex justify-between sm:w-[300px] pt-4 tesxt-2xl gap-4">
-                <FaHashnode />
-                <FaGithub />
-                <FaLinkedin />
-                <FaInstagram />
+            <Link to="#"> <FaHashnode /></Link>
+                <Link to="#"><FaGithub /></Link>
+                <Link to="#"><FaLinkedin /></Link>
+                <Link to="#"><FaInstagram /></Link>
             </div>
         </div>
     </div>
