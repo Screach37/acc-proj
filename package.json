@@ -5,7 +5,7 @@
   "homepage": "https://screach37.github.io/acc-proj/",
   "type": "module",
   "scripts": {
-    "predegploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
